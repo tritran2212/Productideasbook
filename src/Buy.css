@@ -1,0 +1,133 @@
+.container__buy{
+    max-width: 796px;
+    margin: 0 auto;
+}
+.buy__wrapper h2{
+    margin-bottom: 5px;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+.buy__wrapper{
+    margin-bottom: 2rem;
+}
+.buy__wrapper  .buy__subtitle{
+    margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+.wrapper__book{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book__option{
+    padding: 42px 70px 36px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+.book__option img{
+    
+    margin-bottom: 26px;
+}
+.buy__title{
+    margin-bottom: 12px;
+  font-weight: inherit;
+  font-size: 30px;
+  line-height: 1;
+}
+.buy__desc{
+    margin-bottom: 13px;
+  color: #7f8c8d;
+  font-size: 16px;
+}
+.book__option button{
+    width: 100%;
+  max-width: 170px;
+  display: inline-block;
+  height: 41px;
+  padding: 0 0 2px;
+  border: none;
+  border-radius: 3px;
+  background: #3586f8;
+  color: #fff;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: background .15s;
+  margin-bottom: 1rem;
+}
+.container__buy .book__option .buy__extra{
+    color: #7f8c8d;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.divider {
+    width: 180px;
+    height: 2px;
+    margin: 0 auto 60px;
+    border: none;
+    background: #ecf0f1;
+  }
+  .extra__img img{
+   
+    width: 75px;
+    height: 15px;
+    display: inline-block;
+  }
+  .extra__img{
+    display: flex;
+    justify-content: center;
+  }
+  .adjust{
+    width: 220px;
+  }
+  .extra__img  a{
+    margin-left: 5px;
+    color: black;
+  }
+  .logo{
+    max-width: 590px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+  }
+  .check__out {
+    max-width: 600px;
+    margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  .check__out p{
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.3;
+    
+    margin-left: 2rem;
+  }
+  .check__out p a{
+    color: black;
+    transition: all .3s linear;
+  }
+  .check__out p a:hover{
+    color:#3586f8;
+  }
+  .check__out p i{
+    margin-left: 1rem;
+    width: 3rem;
+  
+    display: inline-block;
+  }
+  .check{
+    width:590px;
+    height: 1px;
+
+     margin: 3rem auto ;
+     background:#ecf0f1;
+     border: 1px solid #ecf0f1;
+  }
+  

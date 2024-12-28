@@ -1,0 +1,130 @@
+
+#hero{
+    margin-bottom: 7rem;
+}
+.hero__wrapper{
+    display: flex;
+    width: 100%;
+}
+.info__author{
+    display: flex;
+
+
+}
+.info__author img{
+    display: inline;
+    
+    
+}
+.wrapper__info{
+    transform: translateY(10rem);
+    margin-left: 5rem;
+}
+.info__author .author__text{
+    font-size: 1.8rem;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    padding-top: .7rem;
+    margin-left: 1rem ;
+}
+.info__author .author__text .amazon{
+    margin: 0 0.4rem;
+    transform: translateY(0.9rem);
+}
+.info__text h1{
+    margin-bottom: 2.3rem;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 5.5rem;
+}
+
+
+.info__text .info__description{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.wrapper__info .info__buy{
+    display: flex;
+}
+.info__buy .buy__button a button{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 5rem;
+    height: 5rem;
+    display: inline-block;
+    border-radius: .3rem;
+    background: #3586f8;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    border-color: #3586f8;
+    font-size: 2rem;
+}
+
+.buy__evaluate{
+    transform: translateY(1.8rem);
+    margin-left: 2rem;
+}
+.buy__evaluate img{
+    display: inline-block;
+    
+}
+.info__buy .buy__evaluate span{
+    margin-bottom: .3rem;
+    color: #7f8c8d;    
+    margin-left: 0.5rem;
+
+}
+.info__buy .buy__button button{
+    transition: all .3s linear;
+}
+.info__buy .buy__button button:hover{
+    cursor: pointer;
+    background-color:  #2d75db;;
+}
+
+
+
+@media screen and (max-width:992px){
+    .info__text  .br{
+        display: none;
+    }
+    .wrapper__info{
+        transform: translateY(10rem);
+    }
+  
+    .intro__cover {
+        max-width: none;
+    }
+    br{
+        display: none;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .intro__cover {
+        max-width: 100%;
+    }
+    .hero__wrapper{
+        display: grid;
+        grid-template-columns: 2fr 3fr
+    }
+    .wrapper__info{
+        transform: translateY(0rem);
+    }
+   
+}
+@media screen and (max-width:767px){
+   .hero__wrapper{
+    display: block;
+   }
+   .intro__cover{
+    margin: 0 auto ;
+   }
+
+}

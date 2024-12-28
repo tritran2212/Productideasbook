@@ -1,0 +1,198 @@
+
+.Readers__container {
+    max-width: 56rem;
+    margin: 0 auto 60px ;
+}
+.Readers__container  h2{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 3.5rem;
+    margin-top: 7rem;
+}
+.Reader__list__review{
+    display: flex;
+    flex-direction: row;
+}
+  .Reader__list__review  img{
+    display: inline-block;
+    width:9rem;
+    height: 9rem;
+} 
+.review__text{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+   
+}
+ .Reader__list__review  .review__text  p:first-child{
+    font-size:1.8rem ;
+    margin-bottom: 1rem;
+    font-style: italic;
+    
+}
+.Reader__list__review  .review__text  p:nth-child(2){
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+
+.Reader__list__review  .review__text  p:nth-child(3){
+    margin-top: -2px;
+    color: #7f8c8d;
+}
+
+.Readers__ratings{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+    
+}
+.Readers__ratings .store__rating{
+    padding: 2.8rem 5.5rem;
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.store__rating__stats a{
+    color: black;
+}
+.store__rating__stats img{
+    display: inline-block;
+    text-align: center;
+}
+.store__rating__store  img{
+    margin-bottom:10px ;
+    display: inline-block;
+}
+.Who__should__read  ul{
+    padding-left: 0;
+}
+.Who__should__read  ul li {
+    list-style: none;
+    font-size: 18px;
+    
+}
+.Who__should__read ul a{
+    display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      font-size: 1.8rem;
+      margin-left: 1rem;
+     
+}
+.Who__should__read ul a i{
+    color: #7f8c8d;
+    font-size: 10px;
+    padding-right: 1.3rem;
+}
+.Who__should__read p{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.Who__should__read p>i{
+    margin-right: 10px;
+    color:#ecf0f1;
+}
+
+.Readers__container .Who__should__read  span{
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.chevron-right{
+    transform: translateY(-14px);
+}
+.chevron-right2{
+    transform: translateY(-25px);
+}
+.fix_line{
+    margin-left: 3rem;
+    transform: translateX(-2rem); 
+}
+.line i{
+    color: #ecf0f1;
+}
+.line{
+    display: flex;
+    
+}
+.Subcribe{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f6f7;
+    padding: 3rem;
+    border-radius: 5px;
+}
+.Subcribe h2{
+    margin: 0;
+}
+
+.Sub__text h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.Sub__input  input{
+    height: 45px;
+    padding: 10px 70px 10px 20px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.Sub__input button{
+    height: 45px;
+  padding-right: 30px;
+  padding-left: 30px;
+  line-height: 44px;
+  background:  #3586f8;
+  color: #fff;
+  border-radius: 3px;
+  border-color: transparent;
+  transition: all .3s linear;
+  will-change: color, border;
+}
+
+.Sub__input button:hover{
+    background: #2d75db;
+    cursor: pointer;
+}
+
+
+/* AUTHOR */
+.Author__content {
+    display: flex;
+    font-size: 1.8rem;
+    
+}
+.Author__content .text{
+    margin-bottom: 10px;
+    
+}
+.Author__content .text  a{
+    color: black;
+    transition: all .3s linear;
+}
+.Author__content .text  a:hover{
+    color: #3586f8;
+}
+.Author__content IMG{
+    width: 90PX;
+    height: 90PX;
+}
+.Author__text{
+    margin-left: 27PX;
+}
+.link-with-icon--feather::before {
+    content: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000'%3E%3Cpath stroke-width='1.145' d='M5.994 12.66l-3.537-.397-.397-3.541h.001a3.982 3.982 0 01.976-3.085 18.4 18.4 0 013.29-3.069c1.994-1.278 4.39-2.493 6.354-.528 1.964 1.965.941 4.235-.529 6.353A20.732 20.732 0 019.08 11.68a3.97 3.97 0 01-3.085.98z'/%3E%3Cpath stroke-linecap='round' stroke-width='1.227' d='M1.124 13.997c2.284-3.119 5.603-6.793 7.896-8.293'/%3E%3C/g%3E%3C/svg%3E");
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+
+.text_1{
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 1.8rem;
+}

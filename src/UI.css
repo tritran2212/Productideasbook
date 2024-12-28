@@ -1,0 +1,38 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Fresca", sans-serif;
+    font-size: 1.6rem;
+    padding:5rem 1.5rem;
+}
+.container{
+    margin: 0 auto;
+    max-width: 114rem;
+
+}
+@media screen  and (max-width:1200px){
+     .container{
+        max-width: 96rem;
+        
+     }
+}
+ @media  screen and (max-width:992px){
+    .container{
+        margin: 0 auto      
+    }
+ }
+ @media screen and (max-width:768px){
+    .container{
+        margin: 0 auto
+        
+    }
+ }
+ @media screen and (max-width:567px){
+    .container{
+        max-width: unset;
+        margin: 0 auto
+    }
+ }
